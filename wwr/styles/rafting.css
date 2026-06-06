@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --accent1-color: red;
+    --accent1-color: grey;
     /* dark slate blue */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;

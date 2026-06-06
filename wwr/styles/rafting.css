@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --accent1-color: #264653;
+    --accent1-color: red;
     /* dark slate blue */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -48,15 +48,10 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #fff;
-    background-color: var(--primary-color);
+    background-color: #143f14;
     padding: 0.75rem 1rem;
     border-radius: 999px;
     transition: background-color 0.25s ease;
-}
-
-nav a:hover,
-nav a:focus {
-    background-color: #143f14;
 }
 
 header,
@@ -64,12 +59,6 @@ main,
 footer {
     width: min(95%, 1000px);
     margin: 0 auto;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 nav,
@@ -97,20 +86,18 @@ article {
 h1 {
     position: absolute;
     top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 30%;
     width: auto;
     padding: 16px 32px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--accent1-color);
+    background-color: white;
     color: #fff;
-    border-radius: 999px;
+    border-radius: 99px;
 }
 
 .hero article {
-    position: absolute;
-    right: 32px;
+    float: right;
     bottom: 36px;
     max-width: 320px;
     padding: 16px;
@@ -125,6 +112,7 @@ h1 {
     display: block;
     margin-bottom: 1rem;
     border-radius: 12px;
+    float: right;
 }
 
 .hero article p {
@@ -205,8 +193,9 @@ footer .socialmedia a img {
 
 h1,
 h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     background-color: var(--accent1-color);
-    color: #fff;
     padding: 8px;
     text-align: center;
 }

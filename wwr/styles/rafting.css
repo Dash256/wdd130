@@ -97,7 +97,7 @@ h1 {
 }
 
 .hero article {
-    float: right;
+    position: absolute;
     bottom: 36px;
     max-width: 320px;
     padding: 16px;

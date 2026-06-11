@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form-User Poll</h1>
+    </header>
+    <main>
+        <form id="poll-form">
+            <div class="form-item column2">
+                <label for="username">Fullname</label>
+                <input type="text" id="Fullname" name="Fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                </select>
+            </div>
+            <div class="form-item column1  ">
+                <label for="pet">"Do you have a household pet?"</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item">
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <button type="submit" id="button">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Polling Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

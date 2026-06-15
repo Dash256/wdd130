@@ -18,15 +18,15 @@ header {
 
 h1 {
     margin: 1rem;
-    font-size: 1.5em;
-    color: navy;
+    font-size: 1.6em;
+    color: darkblue;
     text-align: center;
 }
 
 form {
-    width: 600px;
+    width: 90%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 10px;
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
@@ -75,7 +75,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: darkblue;
     color: #fff;
     border: none;
     border-radius: 1.5rem;
@@ -89,8 +89,8 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    width: 600px;
-    text-align: left;
+    width: 90%;
+    text-align: center;
     font-size: 0.8em;
     color: #777;
     border-top: 1px solid #ccc;
